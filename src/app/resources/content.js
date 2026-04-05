@@ -1,5 +1,3 @@
-import { InlineCode } from "@/once-ui/components";
-
 const person = {
   firstName: "Abhin",
   lastName: "S Krishna",
@@ -17,8 +15,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about Web3, AI, and backend engineering, and share practical
+      insights on building decentralized systems.
     </>
   ),
 };
@@ -34,29 +32,25 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/abhinskrishna/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
+    link: "https://www.linkedin.com/in/abhin-s-krishna/",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:unniskrishna3@gmail.com",
+    link: "mailto:abhinskrishna3@gmail.com",
   },
 ];
 
 const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Developer engineer and builder</>,
+  description: `Portfolio website showcasing work in Web3, AI, and backend systems.`,
+  headline: <>Developer focused on Web3, AI, and backend systems</>,
   subline: (
     <>
-      I'm Abhin, a rust developer at <InlineCode>ELNA</InlineCode>, where I develop smart contracts
-      in Rust. After hours, I build my own projects.
+      I'm Abhin, a developer specializing in Rust, Python, and decentralized applications.
+      I build scalable automation tools and AI-driven platforms with a strong focus on
+      performance, security, and real-world impact.
     </>
   ),
 };
@@ -64,7 +58,7 @@ const home = {
 const about = {
   label: "About",
   title: "About me",
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  description: `Meet ${person.name}, a developer specializing in Web3, AI, and backend systems from ${person.location}.`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -81,9 +75,10 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Developer specializing in Web3, AI, and backend systems with hands-on experience in
+        Rust, Python, and decentralized applications.
+        Proven ability to build scalable automation tools and AI-driven platforms with a strong
+        focus on performance, security, and real-world impact.
       </>
     ),
   },
@@ -92,41 +87,62 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Elna",
+        timeframe: "2024",
+        role: "Rust Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Migrated decentralized AI systems from Motoko to Rust, improving performance and
+            scalability.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Optimized backend logic for distributed environments and enhanced reliability across
+            distributed systems.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Elna",
+        timeframe: "2023 – 2024",
+        role: "Motoko Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Built decentralized AI applications on ICP with secure contract workflows.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Designed smart contract logic for secure data handling and privacy-preserving
+            interactions.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Techdia",
+        timeframe: "2023",
+        role: "Python Developer",
+        achievements: [
+          <>
+            Developed automation frameworks using Selenium and Appium for scalable testing and
+            process automation.
+          </>,
+          <>
+            Built end-to-end automation pipelines that improved test coverage and deployment
+            consistency.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Harish Info Solutions",
+        timeframe: "2022",
+        role: "Freelance UI/UX Designer",
+        achievements: [
+          <>
+            Designed intuitive user interfaces and improved UX across web and mobile projects.
+          </>,
+          <>
+            Delivered responsive design systems that strengthened client product experiences.
           </>,
         ],
         images: [],
@@ -135,15 +151,15 @@ const about = {
   },
   studies: {
     display: true, // set to false to hide this section
-    title: "Studies",
+    title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "M.Tech in Data Science & Artificial Intelligence",
+        description: <>CUSAT, Cochin — Expected Jun 2027</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "B.Tech in Computer Science",
+        description: <>CUSAT, Cochin — Jun 2021 – Jun 2025</>,
       },
     ],
   },
@@ -152,36 +168,36 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Languages",
+        description: (
+          <>
+            Rust, Python, Motoko, C, SQL, HTML, CSS
+          </>
+        ),
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Technologies",
+        description: (
+          <>
+            Web3, Blockchain, AI/ML, DApps, ICP
+          </>
+        ),
+      },
+      {
+        title: "Tools",
+        description: (
+          <>
+            Selenium, Appium, ADB, Git, Docker
+          </>
+        ),
+      },
+      {
+        title: "Concepts",
+        description: (
+          <>
+            Backend development, distributed systems, smart contracts
+          </>
+        ),
       },
     ],
   },
@@ -189,8 +205,8 @@ const about = {
 
 const blog = {
   label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
+  title: "Writing about Web3, AI, and engineering...",
+  description: `Read what ${person.name} has been working on recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route
 };
@@ -198,8 +214,8 @@ const blog = {
 const work = {
   label: "Work",
   title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
+  description: `Web3, AI, and backend projects by ${person.name}`,
+  // Create new project pages by adding a new .mdx file to app/work/projects
   // All projects will be listed on the /home and /work routes
 };
 
